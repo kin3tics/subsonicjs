@@ -1,0 +1,46 @@
+{
+  "name": "subsonicjs",
+  "version": "1.0.0",
+  "description": "Subsonic API Wrapper",
+  "main": "lib/subsonic.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "mocha": "mocha",
+    "test": "npm run lint && npm run mocha",
+    "lint": "eslint --ext .js,.jsx ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kin3tics/subsonicjs.git"
+  },
+  "keywords": [
+    "subsonic",
+    "api"
+  ],
+  "author": "Jeremy Dunn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kin3tics/subsonicjs/issues"
+  },
+  "homepage": "https://github.com/kin3tics/subsonicjs#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.7.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-chai-friendly": "^0.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "md5": "^2.2.1",
+    "mocha": "^6.2.2",
+    "mocha-junit-reporter": "^1.23.1",
+    "nock": "^11.7.0",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "qs": "^6.9.1"
+  }
+}
