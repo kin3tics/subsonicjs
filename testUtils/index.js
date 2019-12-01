@@ -1,4 +1,5 @@
 'use strict';
+
 require('dotenv').config();
 // NOTE: testUtils should be require'd before anything else in each spec file!
 require('mocha');
