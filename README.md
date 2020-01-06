@@ -1,5 +1,7 @@
 # subsonicjs
 
+NOTE: Alpha release; Will have basic functionality working soon.
+
 [![npm version](https://badge.fury.io/js/subsonicjs.svg)](https://badge.fury.io/js/subsonicjs)
 
 An abstraction of the subsonic API as a node package. This package attempts to line up API methods and their parameters as close to 1:1 with the original documentation [Official Subsonic API Docs](http://www.subsonic.org/pages/api.jsp).
