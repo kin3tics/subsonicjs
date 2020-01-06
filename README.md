@@ -6,7 +6,7 @@ An abstraction of the subsonic API as a node package. This package attempts to l
 
 ## Changelog
 
-Changelog is available from version 3.1.3 here: [Changelog](https://github.com/kin3tics/subsonicjs/blob/master/CHANGELOG.md)
+Changelog is available here: [Changelog](https://github.com/kin3tics/subsonicjs/blob/master/CHANGELOG.md)
 
 ## Installation
 
