@@ -1,6 +1,6 @@
 {
   "name": "subsonicjs",
-  "version": "1.0.0",
+  "version": "0.5.0",
   "description": "Subsonic API Wrapper",
   "main": "lib/subsonic.js",
   "directories": {
