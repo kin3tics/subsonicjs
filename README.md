@@ -50,7 +50,7 @@ var subsonic = require("subsonicjs")(username, token, salt, {
 
 ## Using Promises
 
-Every method returns a chainable promise which can be used.
+Nearly every method returns a chainable promise which can be used.
 
 ```javascript
 subsonic.browsing
@@ -64,6 +64,15 @@ subsonic.browsing
     }).catch((err) => {
         // Handle error
     })
+```
+
+## Promise Exceptions
+
+A select few methods don't return promises as the end data object is not JSON but rather Binary. In these instances, the method will return a uri for the end client to consume.
+
+```javascript
+subsonic.media.stream(id); //Will return stream uri for media player to consume
+subsonic.media.getCoverArt(id); //Will return cover art uri for image components to consume
 ```
 
 ## Optional Parameters
