@@ -39,7 +39,15 @@ const utils = (module.exports = {
     }
 
     function patchRequest(subsonicInstance, instance) {
-      instance._request = function(method, host, url, data, auth, options, cb) {
+      instance._request = function (
+        method,
+        host,
+        url,
+        data,
+        auth,
+        options,
+        cb
+      ) {
         const req = (subsonicInstance.LAST_REQUEST = {
           method,
           url,
@@ -78,7 +86,7 @@ const utils = (module.exports = {
         process.env.SALT,
         process.env.HOST
       );
-      afterEach(function(done) {
+      afterEach(function (done) {
         this.timeout(timeout || CleanupUtility.DEFAULT_TIMEOUT);
         return self.doCleanup(done);
       });
@@ -147,9 +155,7 @@ const utils = (module.exports = {
    * Get a random string for test Object creation
    */
   getRandomString: () => {
-    return Math.random()
-      .toString(36)
-      .slice(2);
+    return Math.random().toString(36).slice(2);
   },
 
   envSupportsForAwait: () => {

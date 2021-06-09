@@ -7,7 +7,7 @@ const Subsonic = require('../lib/subsonic');
 
 const expect = require('chai').expect;
 
-describe('Subsonic Module', function() {
+describe('Subsonic Module', function () {
   this.timeout(20000);
 
   describe('config object', () => {

@@ -1,7 +1,7 @@
 const subsonic = require('../../testUtils').getSpyableSubsonic();
 const expect = require('chai').expect;
 
-describe('System Resource', function() {
+describe('System Resource', function () {
   this.timeout(20000);
 
   describe('ping', () => {
